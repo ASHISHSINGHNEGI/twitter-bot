@@ -3,7 +3,7 @@ name: Auto Tweet Bot
 on:
   schedule:
     # Posts every hour
-    - cron: "5 * * * *"
+    - cron: "10 * * * *"
     # Change to your preferred schedule:
     # '0 */2 * * *' = every 2 hours
     # '0 */6 * * *' = every 6 hours (4x per day)
