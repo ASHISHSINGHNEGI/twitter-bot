@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "post": "RUN_ONCE=true bun run src/functions/bot.ts",
+    "post1": "RUN_ONCE=true bun run src/functions/test.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/node": "^24.6.0",
@@ -12,7 +16,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
+    "@google/genai": "^1.21.0",
     "dotenv": "^17.2.3",
     "twitter-api-v2": "^1.27.0"
   }

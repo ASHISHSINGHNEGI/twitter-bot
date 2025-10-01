@@ -32,3 +32,14 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+
+node_modules/
+.env
+.DS_Store
+bun.lockb
+dist/
+*.log*.js
+*.js.map
+!*.config.js
+
